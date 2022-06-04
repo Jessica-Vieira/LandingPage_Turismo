@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    background-color: #122A57;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+}
+.flex-container{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+}
+.cabecalho{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__lista{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+}
+.flex-turismos__imagem{
+    width: 50%;
+}
+.flex-turismos__imagem img{
+    width: 100%;
+}
+ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+.flex-turismos{
+    max-height: 100vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-turismos .flex-turismos__texto{
+    min-height: 200px;
+}
+.flex-turismos__texto h1{
+    color: #122A57;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: #122A57;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+.quem-somos{
+    margin-bottom: 40px;
+    align-items: center;
+}
+.quem-somos__imagem{
+    width: 50%;
+}
+.quem-somos__imagem img{
+    width: 100%;
+}
+.quem-somos__texto{
+    width: 50%;
+    margin-left: 20px;
+}
+.quem-somos__texto h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+}
+.quem-somos__texto h2::before{
+    content: "";
+    height: 35px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+.quem-somos__texto p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+.container-externo{
+    background-color: #122A57;
+    width: 100%;
+}
+.servicos{
+    flex-direction: column;
+    padding: 50px 0 100px 0;
+}
+.servicos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.servicos__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.servicos__lista .servico__item{
+    text-align: center;
+}
+.servico__item a{
+    width: 240px;
+    height: 50px;
+    background-color: #fff;
+    color: #122A57;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.servico__item p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+}
+.planos{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    min-width: 80%;
+    padding-top: 50px;
+}
+.planos h2{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #122A57;
+}
+.planos h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.planos h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin: 20px 0 10px 0;
+
+}
+.planos__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: space-between;
+}
+.planos__item{
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 260px;
+}
+.planos__item ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.planos__item ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.planos__item ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #122A57;
+    margin: 5px 5px 0 0;
+}
+.planos__item .btn{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #122A57;
+    height: 70px;
+    width: 100%;
+    margin-top: 50px;
+}
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
+}
+footer .footer p{
+    line-height: 70px;
+}
